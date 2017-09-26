@@ -4,8 +4,6 @@ function className(){
 	pic[0].innerHTML = "<img class='rounded-circle' src='wink.jpg' width='240' height='240'>";
 }
 
-window.addEventListener("load", className, false);
-
 //David's function
 
 function tagName(){
@@ -13,4 +11,18 @@ function tagName(){
 	phone[0].innerHTML = "<img class='rounded-circle' src='phone.jpg' alt='Corgi on phone' width='240' height='240'>";
 
 }
-window.addEventListener("load", tagName, false);
+
+//Tj's function
+
+function attributeName(){
+	//function changes an img src in the HTML
+	document.getElementById("corg3").src="tongue.jpg";
+}
+
+function start(){
+	className();
+	tagName();
+	attributeName();
+}
+
+window.addEventListener("load", start, false);
