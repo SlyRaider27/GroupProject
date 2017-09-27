@@ -19,6 +19,13 @@ function attributeName(){
 	document.getElementById("corg3").src="tongue.jpg";
 }
 
+//Nick's Function
+function selectorName(){
+	//Change background image on button press
+	document.querySelector("body").style.backgroundImage = "url(spacebg.png)";
+}
+window.addEventListener("onclick", selectorName, false)
+
 function start(){
 	className();
 	tagName();
